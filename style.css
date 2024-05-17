@@ -1,0 +1,229 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+    box-shadow: 0px 1px 20px #6B6B6B;
+    z-index: 1000;
+    background-image:url(./照片/sign.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+  nav h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 300;
+    
+  }
+    nav ul {
+    transition: all 2s ease-in-out 1s;
+    margin-right: 20px;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+    transition: all 3s ease-in-out 1s;
+  }
+  nav a{
+    transition: all 1s ease-in-out 0s;
+  }
+  nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    
+  }
+  nav a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  nav a:hover {
+    text-decoration: none;
+    color: #828b6c;
+    font-size: 30px;
+  }
+  header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./照片/background.jpg);
+    background-size: cover;
+  }
+  .wrap{
+    background-color: #252525;
+    width: 1000px;
+    height:500px;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+    box-shadow: 0px 1px 20px #6B6B6B;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .wrap .left{
+    width: 295px;
+    height: 400px;
+    background-image: url(./照片/block2.jpg);
+    background-size: cover;
+    background-position: 0;
+  }
+  .wrap .right{
+    width: 295px;
+    height: 400px;
+    background-image: url(./照片/block2.jpg);
+    background-size: cover;
+    background-position: -295px 0;
+  }
+  .wrap p{
+    color: #ffffff;
+    writing-mode: vertical-lr;
+    padding: 0 5px;
+    letter-spacing: 35px;
+  }
+  article {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #a01{
+    background-image: url(./照片/block3.jpg);
+    background-position-y: -100px;
+  }
+  .intro{
+    width: 100%;
+    height: 200px;
+    background-color: #2d454a;opacity: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+  }
+  .picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./照片/me.jpg);
+    background-size: cover;
+    background-position: -10px -10px;
+  }
+  .text{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    margin-top: 70px;
+    padding: 50px 0;
+    color: #ffffff;  
+  }
+  #a02{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./照片/block1.jpg);
+  }
+  .trip{
+    width: 100%;
+    height: 200px;
+    background-color: #3a412f;opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trip h2{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .trip p{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .text a {
+    color: rgba(0 0 0 100);
+    padding: 0 10px;
+    border-radius: 10%;
+    background-color: #fff;
+    text-decoration: none;
+    position: relative;
+    top:10px;
+  }
+  .text a:hover{
+    font-size: larger;
+  }
+  #a03{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./照片/bg.jpg);
+    background-size: cover;  
+  }
+  #a03 h2{
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 50px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    border-radius: 10%;
+  }
+  .swiper {
+    width: 60%; 
+    height: 70%;     
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .end{
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 98%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .end p{
+    line-height: 10px;
+    position: relative;
+    
+  }
+
+
+
